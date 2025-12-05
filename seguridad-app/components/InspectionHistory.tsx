@@ -52,8 +52,8 @@ export const InspectionHistory: React.FC<Props> = ({ onViewReport }) => {
                      <h3 className="font-bold text-slate-800 flex items-center gap-2">
                          {log.siteName}
                          {log.synced ? 
-                            <Cloud className="w-4 h-4 text-blue-400" title="Sincronizado con Supabase" /> : 
-                            <CloudOff className="w-4 h-4 text-orange-400" title="Pendiente de subir" />
+                            <Cloud className="w-4 h-4 text-blue-400" /> : 
+                            <CloudOff className="w-4 h-4 text-orange-400" />
                          }
                      </h3>
                      <div className="flex items-center text-xs text-slate-500 gap-3 mt-1">
